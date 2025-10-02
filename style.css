@@ -123,11 +123,11 @@ body {
   position: absolute;
   left: 23%;
   bottom: 8%;
+  z-index: 2;
 }
 
 #shirt {
   width: 1050px;
-  z-index: 3;
   position: relative;
 }
 
@@ -135,6 +135,7 @@ body {
   position: absolute;
   top: 45%;
   left: 8%;
+  z-index: 1;
 }
 
 .bottom-left img {
@@ -145,7 +146,6 @@ body {
 .bottom-left .text {
   line-height: 0.9;
   width: 750px;
-  /* background: red; */
   font-size: 61px;
   color: white;
   position: relative;
