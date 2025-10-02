@@ -31,7 +31,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 40px 80px;
+  padding: 40px 180px;
   /* background: red; */
 }
 
@@ -80,14 +80,14 @@ body {
 .quote1 {
   position: absolute;
   top: 30%;
-  left: 30%;
+  left: 13%;
   display: flex;
   align-items: center;
   /* background: red; */
   width: 232px;
   font-size: 15px;
   text-align: center;
-  z-index: 2;
+  z-index: 5;
 }
 
 .quote1 img {
@@ -100,14 +100,14 @@ body {
 .quote2 {
   position: absolute;
   top: 50%;
-  left: 60%;
+  left: 73%;
   display: flex;
   align-items: center;
   /* background: red; */
   width: 232px;
   font-size: 15px;
   text-align: center;
-  z-index: 2;
+  z-index: 5;
 }
 
 .quote2 img {
@@ -118,20 +118,21 @@ body {
 }
 
 .shirt {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  position: absolute;
+  left: 23%;
+  bottom: 8%;
 }
 
-#shirt{
-  width: 970px;
-  z-index: 1;
+#shirt {
+  width: 1050px;
+  z-index: 3;
+  position: relative;
 }
 
 .bottom-left {
   position: absolute;
   top: 45%;
-  left: 4%;
+  left: 8%;
 }
 
 .bottom-left img {
@@ -145,12 +146,27 @@ body {
   /* background: red; */
   font-size: 61px;
   color: white;
+  z-index: 1;
+  /* position: relative; */
+}
+
+.bottom-left .text span {
+  position: relative;
+  z-index: 0;
+}
+
+.bottom-left .text .first{
+  z-index: 5;
+}
+
+.bottom-left .text .second{
+  z-index: 5;
 }
 
 .bottom-right {
   position: absolute;
   top: 27%;
-  left: 217%;
+  left: 200%;
   width: 240px;
   height: 340px;
   background-color: #ffffff73;
@@ -173,7 +189,7 @@ body {
 .footer {
   width: 100%;
   height: 100px;
-  padding: 0 77px;
+  padding: 0 180px;
   position: absolute;
   bottom: 0;
   background: #1d2a2e;
@@ -202,7 +218,6 @@ body {
 
 .footer-right {
   /* background: red; */
-  margin-right: 55px;
 }
 
 .footer-right button {
