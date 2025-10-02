@@ -148,20 +148,21 @@ body {
   /* background: red; */
   font-size: 61px;
   color: white;
-  z-index: 1;
-  /* position: relative; */
+  position: relative;
 }
 
 .bottom-left .text span {
   position: relative;
-  z-index: 0;
+  z-index: 1;
 }
 
-.bottom-left .text .first{
+.bottom-left .text .first {
+  position: relative;
   z-index: 5;
 }
 
-.bottom-left .text .second{
+.bottom-left .text .second {
+  position: relative;
   z-index: 5;
 }
 
